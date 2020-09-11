@@ -20,7 +20,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.0.0"),
         
         // Swift logging API
-        .package(url: "https://github.com/apple/swift-log.git", .branch("master")),
+        .package(url: "https://github.com/apple/swift-log.git", .branch("main")),
     ],
     targets: [
         .target(name: "HTTPKit", dependencies: [
